@@ -1,0 +1,24 @@
+https://docs.oracle.com/javaee/7/tutorial/servlets.htm
+
+[iaw26068632@h18 ~]$ find / -name "log.log" 2> /dev/null
+
+direccion de log: para tail -f /home/users/inf/wiaw2/iaw26068632/glassfish4/glassfish/domains/domain1/config/log/log.log
+
+
+realizamos el connection pull de jdbc
+copiamos el fichero de postgres en el glassfish [iaw26068632@h18 Downloads]$ cp postgresql-42.1.4.jar ../glassfish4/glassfish/domains/domain1/lib/
+.
+
+
+test1=> select * from pg_stat_activity;
+
+
+para cambiar idioma a web: usaremos un fichero properties
+
+
+servlets annotations: https://www.tutorialspoint.com/servlets/servlets-annotations.htm
+Boolean asyncSupported para procesar en segundo plano, abre un nuevo hilo mientras usa el hilo principal
+se puede subir un fichero grande, con el loading en x min terminará
+
+
+
