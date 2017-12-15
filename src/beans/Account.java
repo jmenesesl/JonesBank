@@ -21,7 +21,7 @@ public class Account {
 	//Saldo actual del cliente
 	private double saldo;
 	
-	// dni de identificacion del cliente
+	// dni de identificac ion del cliente
 	private String cliente;
 	
 
