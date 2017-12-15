@@ -61,6 +61,13 @@
 	
 		int size = 3;
 		List<Transaccion> lTrans = (List<Transaccion>) request.getSession().getAttribute("lista");
+		if (lTrans.size() == 1) {
+			size = 1;
+		} else if (lTrans.size() == 2) {
+			size = 2;
+		} else {
+			size = 3;
+		}
 	%>
 
 

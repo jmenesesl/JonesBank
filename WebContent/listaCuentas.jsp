@@ -179,9 +179,9 @@ function addAccount() {
     
     <thead>
         <tr>
-            <th>Cliente</th>
-            <th>Iban</th>
-            <th>Saldo</th>
+           <th><fmt:message key="client"/></th>
+            <th><fmt:message key="iban"/></th>
+            <th><fmt:message key="cant"/></th>
             <!--  <th class="text-center">Opción</th>  -->
         </tr>
     </thead>
